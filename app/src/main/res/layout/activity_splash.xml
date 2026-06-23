@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#7CE0FF">
+
+    <!-- Tempat Gambar Utama -->
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_app" />
+    <!-- Teks Judul Utama -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catatan Pintar"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Teks Powered By Mahfuz -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✨ Powered by Mahfuz"
+        android:textColor="#555555"
+        android:textSize="11sp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Tempat Titik Loading -->
+    <TextView
+        android:id="@+id/tv_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• • •"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

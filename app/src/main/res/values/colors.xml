@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bg_screen">#F4F5FA</color>
+    <color name="purple_main">#9D00FF</color>
+    <color name="purple_light">#E8D9FF</color>
+    <color name="text_dark">#2D2D42</color>
+    <color name="text_grey">#8F92A1</color>
+    <color name="bg_input">#F3F4F8</color>
+
+    <color name="blue">#7FE5FF</color>
+</resources>
